@@ -1,0 +1,88 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+html {
+	/* font-size: 10px,  cux the original is 16px, so I did (10/16)*100= 62.5%, so that 1rem = 10px */
+	font-size: 62.5%;
+	overflow-x: hidden;
+}
+
+body {
+	background-color: #212d40;
+	color: #ddd;
+	font-family: "Rubik", sans-serif;
+}
+/* ************* */
+/*    NAV BAR    */
+/* ************* */
+#CoolCats-header {
+	text-align: center;
+	font-size: 4.4rem;
+	padding: 1.4rem 0 1.6rem 0;
+}
+.navbar {
+	background-color: #415a77;
+	border-bottom-left-radius: 30px;
+	border-bottom-right-radius: 30px;
+}
+nav {
+	border-radius: 20px;
+}
+.border-radius-left {
+	border-top-left-radius: 12px;
+}
+.border-radius-right {
+	border-top-right-radius: 12px;
+}
+nav ul {
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	position: relative;
+}
+.nav-link {
+	color: #ddd;
+	text-decoration: none;
+	font-size: 1.2rem;
+	padding: 1.2rem 2.6rem;
+	background-color: #778da9;
+	display: block;
+}
+/* hover effects and colours for nav drop down menu */
+.nav-link:hover {
+	background-color: rgba(93, 115, 145, 0.7);
+	color: #ccc;
+}
+.dropdown li a {
+	background-color: rgba(93, 115, 145, 0.7);
+}
+.dropdown li a:hover {
+	background-color: rgba(119, 141, 169, 0.7);
+}
+.sub-dropdown li a {
+	background-color: rgba(72, 94, 120, 0.7);
+}
+.sub-dropdown li a:hover {
+	background-color: rgba(93, 115, 145, 0.7);
+}
+nav .dropdown {
+	position: absolute;
+	display: none;
+}
+nav ul li {
+	position: relative;
+}
+.sub-dropdown {
+	left: 100%;
+	top: 0;
+	width: 15rem;
+}
+nav ul li:hover > ul {
+	display: block;
+}
+
+/* ************* */
+/*    NAV BAR    */
+/* ************* */
