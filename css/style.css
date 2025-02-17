@@ -11,8 +11,13 @@ html {
 
 body {
 	background-color: #212d40;
-	color: #ddd;
+	color: #faedcd;
 	font-family: "Rubik", sans-serif;
+}
+
+.center-page {
+	width: 100rem;
+	margin: 0 auto;
 }
 /* ************* */
 /*    NAV BAR    */
@@ -52,20 +57,20 @@ nav ul {
 }
 /* hover effects and colours for nav drop down menu */
 .nav-link:hover {
-	background-color: rgba(93, 115, 145, 0.7);
+	background-color: rgba(93, 115, 145, 0.95);
 	color: #ccc;
 }
 .dropdown li a {
-	background-color: rgba(93, 115, 145, 0.7);
+	background-color: rgba(93, 115, 145, 0.95);
 }
 .dropdown li a:hover {
-	background-color: rgba(119, 141, 169, 0.7);
+	background-color: rgba(119, 141, 169, 0.95);
 }
 .sub-dropdown li a {
-	background-color: rgba(72, 94, 120, 0.7);
+	background-color: rgba(72, 94, 120, 0.95);
 }
 .sub-dropdown li a:hover {
-	background-color: rgba(93, 115, 145, 0.7);
+	background-color: rgba(93, 115, 145, 0.95);
 }
 nav .dropdown {
 	position: absolute;
@@ -84,5 +89,40 @@ nav ul li:hover > ul {
 }
 
 /* ************* */
-/*    NAV BAR    */
+/*    HERO CONT  */
 /* ************* */
+#home-hero {
+	margin: 6.4rem 0;
+}
+#hero-box {
+	background-color: rgba(64, 89, 117, 0.8);
+	border-radius: 5rem;
+	padding: 4.8rem;
+	display: flex;
+	gap: 6.4rem;
+	box-shadow: 0 30px 100px 1px rgba(0, 1, 21, 0.775);
+}
+#hero-text-cont {
+	width: 50rem;
+}
+#hero-img-cont {
+	height: 25rem;
+	width: 25rem;
+	background-color: black;
+}
+.hero-title {
+	font-size: 4.4rem;
+	font-family: "Rubik";
+	font-weight: 700;
+	margin-bottom: 1.8rem;
+}
+#hero-subheading {
+	font-size: 2.4rem;
+	font-weight: 500;
+	margin-bottom: 1rem;
+}
+#hero-text {
+	color: #faedcd;
+	font-size: 1.6rem;
+	line-height: 2.4rem;
+}
