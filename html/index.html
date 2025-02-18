@@ -14,12 +14,14 @@
 			rel="stylesheet" />
 
 		<link rel="stylesheet" href="../css/style.css" />
+		<link rel="stylesheet" href="../css/queries.css" />
+		<link rel="stylesheet" href="../css/reusable.css" />
 		<script src="script.js"></script>
 		<title>Document</title>
 	</head>
 
 	<body>
-		<header class="navbar">
+		<header class="navbar sticky-nav">
 			<h1 id="CoolCats-header">CoolCats</h1>
 			<nav>
 				<ul>
@@ -58,25 +60,36 @@
 				</ul>
 			</nav>
 		</header>
-		<div class="center-page">
-			<section id="home-hero">
-				<div id="hero-box">
-					<div id="hero-img-cont">
-						<img src="#" alt="cat" id="hero-image" />
-					</div>
-					<div id="hero-text-cont">
-						<header class="hero-title">CoolCats</header>
-						<p id="hero-subheading">What is it?</p>
-						<p id="hero-text">
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem
-							ipsum dolor sit amet consectetur adipisicing elit. Deleniti
-							dignissimos architecto mollitia expedita nobis cupiditate magni
-							eveniet cumque deserunt in labore sit, nisi quibusdam vel, nemo
-							ratione libero voluptatem provident.
-						</p>
-					</div>
+
+		<section id="home-hero" class="parallex">
+			<div id="hero-text">
+				<div id="hero-title">Cats are cool. Adopt One</div>
+				<p class="hero-paragraph">
+					See why we think you should adopt a cat, by scrolling to discover the
+					benefits of doing so.
+				</p>
+				<a href="#" class="adopt-btn">Adopt now</a>
+			</div>
+		</section>
+
+		<div id="home-intro" class="center-page">
+			<div id="intro-box">
+				<div id="intro-img-cont">
+					<img src="#" alt="cat" id="intro-image" />
 				</div>
-			</section>
+				<div id="intro-text-cont">
+					<header class="intro-title">CoolCats</header>
+					<p id="intro-subheading">What is it?</p>
+					<p id="intro-text">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum
+						dolor sit amet consectetur adipisicing elit. Deleniti dignissimos
+						architecto mollitia expedita nobis cupiditate magni eveniet cumque
+						deserunt in labore sit, nisi quibusdam vel, nemo ratione libero
+						voluptatem provident.
+					</p>
+				</div>
+			</div>
 		</div>
+		<div id="home-parallex-one" class="parallex"></div>
 	</body>
 </html>

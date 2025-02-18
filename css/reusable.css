@@ -1,0 +1,20 @@
+.center-page {
+	margin: 0 auto;
+	width: 100rem;
+}
+.center {
+	display: flex;
+	justify-content: center;
+}
+.border-radius-left {
+	border-top-left-radius: 12px;
+}
+.border-radius-right {
+	border-top-right-radius: 12px;
+}
+.parallex {
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
