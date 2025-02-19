@@ -147,7 +147,7 @@ nav ul li:hover > ul {
 }
 #intro-box {
 	background-color: rgba(64, 89, 117, 0.8);
-	border-radius: 5rem;
+	border-radius: 40px;
 	padding: 4.8rem;
 	display: flex;
 	gap: 6.4rem;
@@ -185,4 +185,59 @@ nav ul li:hover > ul {
 	background-image: url(../img/home-parallex-01.png);
 	height: 40rem;
 	/* transform: translateY(-20rem); */ /* FIND OUT WHY I CAN'T MOVE THIS ELEMENT BACK */
+}
+
+/* ************* */
+/*   PARALLEX 01 */
+/* ************* */
+#meet-the-team {
+	height: 50rem;
+	text-align: center;
+}
+#meet-the-team-header {
+	color: #be95c4;
+	font-size: 5.2rem;
+	font-family: "Rubik";
+	font-weight: 700;
+	margin-bottom: 1.8rem;
+	margin: 6.4rem 0 3.2rem 0;
+}
+#team-cat {
+	background-color: #778da9;
+	height: 30rem;
+	border-radius: 40px;
+	box-shadow: 0 30px 100px 1px rgba(0, 1, 21, 0.775);
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+.team-cat {
+	width: 20rem;
+	height: 20rem;
+	background-size: contain;
+	transition-duration: 0.3s;
+}
+#cat-one {
+	background-image: url(../img/home-cat-team/cat-one.png);
+}
+#cat-one:hover {
+	background-image: url(../img/home-cat-team/cat-one-hover.png);
+}
+#cat-two {
+	background-image: url(../img/home-cat-team/cat-one.png);
+}
+#cat-two:hover {
+	background-image: url(../img/home-cat-team/cat-one-hover.png);
+}
+#cat-three {
+	background-image: url(../img/home-cat-team/cat-one.png);
+}
+#cat-three:hover {
+	background-image: url(../img/home-cat-team/cat-one-hover.png);
+}
+#cat-four {
+	background-image: url(../img/home-cat-team/cat-one.png);
+}
+#cat-four:hover {
+	background-image: url(../img/home-cat-team/cat-one-hover.png);
 }
