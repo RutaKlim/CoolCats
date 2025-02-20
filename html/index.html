@@ -17,7 +17,7 @@
 		<link rel="stylesheet" href="../css/queries.css" />
 		<link rel="stylesheet" href="../css/reusable.css" />
 		<script src="script.js"></script>
-		<title>Document</title>
+		<title>CoolCats</title>
 	</head>
 
 	<body>
@@ -72,13 +72,13 @@
 			</div>
 		</section>
 
-		<div id="home-intro" class="center-page">
+		<section id="home-intro" class="center-page">
 			<div id="intro-box">
 				<div id="intro-img-cont">
 					<img src="#" alt="cat" id="intro-image" />
 				</div>
 				<div id="intro-text-cont">
-					<header class="intro-title">CoolCats</header>
+					<header id="intro-title" class="header-text">CoolCats</header>
 					<p id="intro-subheading">What is it?</p>
 					<p id="intro-text">
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum
@@ -89,19 +89,74 @@
 					</p>
 				</div>
 			</div>
-		</div>
+		</section>
 		<div id="home-parallex-one" class="parallex"></div>
+
 		<section id="meet-the-team">
-			<header id="meet-the-team-header">Meet the team</header>
-			<figure id="team-cat" class="center-page">
-				<div class="cat-one-cont">
-					<div id="cat-one" class="team-cat"></div>
-					<div></div>
+			<header id="meet-the-team-header" class="header-text">
+				Meet the team
+			</header>
+			<figure id="team-cat-four" class="center-page">
+				<div class="cat-box-cont">
+					<div
+						id="cat-one"
+						class="team-cat"
+						role="img"
+						aria-label="cartoon black-cat"></div>
+					<p class="cat-name">Tommy.K</p>
+					<p class="cat-position">Manager</p>
 				</div>
-				<div id="cat-two" class="team-cat"></div>
-				<div id="cat-three" class="team-cat"></div>
-				<div id="cat-four" class="team-cat"></div>
+				<div class="cat-box-cont">
+					<div
+						id="cat-two"
+						class="team-cat"
+						role="img"
+						aria-label="cartoon black-cat"></div>
+					<p class="cat-name">Jessy.M.A</p>
+					<p class="cat-position">Team Leader</p>
+				</div>
+				<div class="cat-box-cont">
+					<div
+						id="cat-three"
+						class="team-cat"
+						role="img"
+						aria-label="cartoon black-cat"></div>
+					<p class="cat-name">Miae.U.A</p>
+					<p class="cat-position">Event Organiser</p>
+				</div>
+				<div class="cat-box-cont">
+					<div
+						id="cat-four"
+						class="team-cat"
+						role="img"
+						aria-label="cartoon black-cat"></div>
+					<p class="cat-name">Li.X</p>
+					<p class="cat-position">Designer, Developer</p>
+				</div>
 			</figure>
 		</section>
+		<section id="fun-facts">
+			<header id="fun-facts-header" class="header-text">
+				Did you know that...
+			</header>
+			<div id="f-f-cards">
+				<div id="f-f-card-one" class="f-f-card">
+					<p>Cats can jump several times their own height!</p>
+				</div>
+				<div id="f-f-card-two" class="f-f-card">
+					<p>A quarter of all pet cats, are actually adopted from shelters.</p>
+				</div>
+				<div id="f-f-card-three" class="f-f-card">
+					<ion-icon name="heart" id="f-f-card-heart"></ion-icon>
+				</div>
+			</div>
+		</section>
+
+		<script
+			type="module"
+			src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+		<script
+			nomodule
+			src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 	</body>
 </html>

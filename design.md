@@ -6,3 +6,5 @@ Design Idea:
 
 font: @import url(https://fonts.googleapis.com/css?family=Bungee);
 font-family: 'Bungee';
+
+border-radius: 40px

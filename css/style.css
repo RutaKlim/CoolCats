@@ -32,7 +32,7 @@ body {
 	background-color: #415a77;
 	border-bottom-left-radius: 30px;
 	border-bottom-right-radius: 30px;
-	z-index: 1;
+	z-index: 10;
 }
 nav {
 	border-radius: 20px;
@@ -47,8 +47,8 @@ nav ul {
 .nav-link {
 	color: #fff;
 	text-decoration: none;
-	font-size: 1.4rem;
-	padding: 1.2rem 2.6rem;
+	font-size: 1.8rem;
+	padding: 1.2rem 3.2rem;
 	background-color: #778da9;
 	display: block;
 }
@@ -79,7 +79,7 @@ nav ul li {
 .sub-dropdown {
 	left: 100%;
 	top: 0;
-	width: 15rem;
+	width: 20rem;
 }
 nav ul li:hover > ul {
 	display: block;
@@ -90,7 +90,7 @@ nav ul li:hover > ul {
 #home-hero {
 	height: 55rem;
 	margin-top: 9rem;
-	background-image: url(../img/hero-img.png);
+	background-image: url(../img/hero-img.webp);
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -143,15 +143,21 @@ nav ul li:hover > ul {
 /*   INTRO CONT  */
 /* ************* */
 #home-intro {
-	margin: 8rem auto;
+	position: relative;
+	height: 60rem;
+	display: flex;
+	justify-content: center;
 }
 #intro-box {
-	background-color: rgba(64, 89, 117, 0.8);
+	background-color: rgb(64, 89, 117);
 	border-radius: 40px;
-	padding: 4.8rem;
+	padding: 9.6rem;
 	display: flex;
 	gap: 6.4rem;
 	box-shadow: 0 30px 100px 1px rgba(0, 1, 21, 0.775);
+	position: absolute;
+	z-index: 1;
+	transform: translateY(15rem);
 }
 #intro-text-cont {
 	width: 50rem;
@@ -161,10 +167,7 @@ nav ul li:hover > ul {
 	width: 25rem;
 	background-color: black;
 }
-.intro-title {
-	font-size: 4.4rem;
-	font-family: "Rubik";
-	font-weight: 700;
+#intro-title {
 	margin-bottom: 1.8rem;
 }
 #intro-subheading {
@@ -182,27 +185,25 @@ nav ul li:hover > ul {
 /*   PARALLEX 01 */
 /* ************* */
 #home-parallex-one {
-	background-image: url(../img/home-parallex-01.png);
-	height: 40rem;
-	/* transform: translateY(-20rem); */ /* FIND OUT WHY I CAN'T MOVE THIS ELEMENT BACK */
+	background-image: url(../img/home-parallex-01.webp);
+	height: 45rem;
+	/* transform: translateY(-20rem); */
+	margin-top: -20rem;
+	/* FIND OUT WHY I CAN'T MOVE THIS ELEMENT BACK */
 }
 
 /* ************* */
 /*   PARALLEX 01 */
 /* ************* */
 #meet-the-team {
-	height: 50rem;
-	text-align: center;
+	margin: 9.6rem 0;
 }
 #meet-the-team-header {
-	color: #be95c4;
-	font-size: 5.2rem;
-	font-family: "Rubik";
-	font-weight: 700;
-	margin-bottom: 1.8rem;
-	margin: 6.4rem 0 3.2rem 0;
+	color: #a073c2;
+	text-align: center;
+	margin: 3.2rem 0 3.2rem 0;
 }
-#team-cat {
+#team-cat-four {
 	background-color: #778da9;
 	height: 30rem;
 	border-radius: 40px;
@@ -218,26 +219,94 @@ nav ul li:hover > ul {
 	transition-duration: 0.3s;
 }
 #cat-one {
-	background-image: url(../img/home-cat-team/cat-one.png);
+	background-image: url(../img/home-cat-team/cat-one.webp);
 }
 #cat-one:hover {
-	background-image: url(../img/home-cat-team/cat-one-hover.png);
+	background-image: url(../img/home-cat-team/cat-one-hover.webp);
 }
 #cat-two {
-	background-image: url(../img/home-cat-team/cat-one.png);
+	background-image: url(../img/home-cat-team/cat-one.webp);
 }
 #cat-two:hover {
-	background-image: url(../img/home-cat-team/cat-one-hover.png);
+	background-image: url(../img/home-cat-team/cat-one-hover.webp);
 }
 #cat-three {
-	background-image: url(../img/home-cat-team/cat-one.png);
+	background-image: url(../img/home-cat-team/cat-one.webp);
 }
 #cat-three:hover {
-	background-image: url(../img/home-cat-team/cat-one-hover.png);
+	background-image: url(../img/home-cat-team/cat-one-hover.webp);
 }
 #cat-four {
-	background-image: url(../img/home-cat-team/cat-one.png);
+	background-image: url(../img/home-cat-team/cat-one.webp);
 }
 #cat-four:hover {
-	background-image: url(../img/home-cat-team/cat-one-hover.png);
+	background-image: url(../img/home-cat-team/cat-one-hover.webp);
+}
+
+.cat-box-cont:hover > p {
+	color: #e8cbe5;
+	transition-duration: 0.3s;
+}
+.cat-box-cont {
+	text-align: center;
+}
+.cat-name {
+	font-size: 2.4rem;
+	font-weight: 600;
+	letter-spacing: 1px;
+	color: #083e4e;
+}
+.cat-position {
+	font-size: 1.6rem;
+	font-weight: 500;
+	color: #10556a;
+}
+/* ************* */
+/*   FUN FACTS   */
+/* ************* */
+#fun-facts {
+	height: 75rem;
+}
+#fun-facts-header {
+	margin-top: 24rem;
+	text-align: center;
+}
+#f-f-cards {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	margin-top: 30rem;
+}
+.f-f-card {
+	border-radius: 40px;
+	position: absolute;
+}
+#f-f-card-one {
+	background-color: #a073c2;
+	width: 50rem;
+	font-size: 4.4rem;
+	padding: 7rem 4.8rem;
+	transform: translate(33rem, -10rem);
+	box-shadow: 0 0 80px 10px rgba(162, 16, 198, 0.479);
+	/* box-shadow: 0 30px 100px 1px rgba(42, 42, 42, 0.395); */
+}
+#f-f-card-two {
+	background-color: yellowgreen;
+	width: 70rem;
+	font-size: 5.2rem;
+	padding: 7rem;
+	z-index: -1;
+	transform: translate(-16rem, 4rem);
+	box-shadow: 0 0 150px 10px rgba(174, 227, 15, 0.318);
+}
+#f-f-card-three {
+	background-color: orange;
+	padding: 3rem;
+	transform: translate(21rem, 20rem);
+	box-shadow: 0 0 80px 10px rgba(255, 136, 0, 0.477);
+}
+#f-f-card-heart {
+	width: 10rem;
+	height: 10rem;
 }

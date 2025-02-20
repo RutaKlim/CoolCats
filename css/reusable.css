@@ -18,3 +18,8 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+.header-text {
+	font-size: 5.2rem;
+	font-family: "Rubik";
+	font-weight: 700;
+}
