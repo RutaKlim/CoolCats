@@ -23,3 +23,8 @@
 	font-family: "Rubik";
 	font-weight: 700;
 }
+.small-text-style {
+	color: #faedcd;
+	font-size: 1.6rem;
+	line-height: 2.6rem;
+}
